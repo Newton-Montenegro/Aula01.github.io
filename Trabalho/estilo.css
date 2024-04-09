@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+.sobre-text {
+    text-align: justify; /* Justifica o texto */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente o bloco de texto */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+}
+.github-link {
+    color: #0073e6; /* Cor do link */
+    text-decoration: none;
+}
+
+.github-link:hover {
+    text-decoration: underline; /* Sublinhar o link ao passar o mouse sobre ele */
+}

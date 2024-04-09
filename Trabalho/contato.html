@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação Educacional</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Entre em Contato</h1>
+        <p>Use o formulário abaixo para entrar em contato comigo:</p>
+
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required> <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+      <!-- Neste parte o formulário de contato possui campos para Nome, Email e Mensagem. 
+        Quando o usuário preenche o formulário e clica no botão "Enviar," o formulário será submetido 
+        a um arquivo chamado processar_formulario.php (no caso eu teria que criar um arquivo de processamento do 
+        formulário em uma linguagem de programação, como PHP, para lidar com os dados do formulário.). -->
+    </main>
+</body>
+</html>
